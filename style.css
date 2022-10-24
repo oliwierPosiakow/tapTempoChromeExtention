@@ -12,7 +12,7 @@ body{
     position: relative;
     margin: 0px;
     border: 20px solid;
-    border-image-source: url("border.jpg");
+    border-image-source: url("../images/border.jpg");
     border-image-slice: 71 38 71 38;
     border-image-width: 20px 20px 20px 20px;
     border-image-outset: 0px 0px 0px 0px;
@@ -20,7 +20,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-image: url("maly-background..png");
+    background-image: url("../images/maly-background..png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
