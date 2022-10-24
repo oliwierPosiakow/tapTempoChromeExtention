@@ -1,0 +1,72 @@
+
+body{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.main{
+    text-align: center;
+    min-width: 240px;
+    max-width: 250px;
+    min-height: 240px;
+    max-height: 250px;
+    position: relative;
+    margin: 0px;
+    border: 20px solid;
+    border-image-source: url("border.jpg");
+    border-image-slice: 71 38 71 38;
+    border-image-width: 20px 20px 20px 20px;
+    border-image-outset: 0px 0px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("maly-background..png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#average{
+    font-size: 1.8em;
+    border: 2px solid black;
+    width: 130px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgba(36, 36, 36, 0.7);
+    color: white;
+    margin: 10px;
+}
+
+#bpm{
+    border: solid 2px black;
+    background-color: rgba(36, 36, 36, 0.7);
+    color: white;
+    padding: 5px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 1.4em;
+}
+.buttons button{
+    width: 80px;
+    height: 40px;
+    background-color: rgba(36, 36, 36, 0.9);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1.2em;
+    transition: all 2ms ease-in-out;
+    margin: 10px 5px;
+}
+.buttons button:active{
+    transform: translateY(1px);
+    height: 39px;
+}
+#last{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2em;
+    color: white;
+    background-color: rgba(36, 36, 36, 0.6);
+}
