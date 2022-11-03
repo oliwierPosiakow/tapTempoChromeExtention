@@ -24,7 +24,7 @@ function reset(){
     count = 0
 }
 function calulateBPM(stop, start){
-    let bpm = ((1/((stop - start) / 1000)) *60)
+    let bpm = ((1/((stop - start) / 1000)) * 60)
     return bpm
 }
 function updateAverage(){
@@ -37,6 +37,7 @@ function updateAverage(){
 buttonStartEl.addEventListener("click", function(){
     alive = true
 })
+
 buttonStopEl.addEventListener("click", function(){
     alive = false
     reset()
